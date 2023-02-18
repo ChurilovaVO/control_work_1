@@ -1,7 +1,4 @@
-﻿// Задача. Написать программу, которая из имеющегося массива строк 
-//формирует массив из строк, длина которых меньше, либо равна 3 символа.
-
-using static System.Console;
+﻿using static System.Console;
 WriteLine("Введите слова через пробел: ");
 string[] startArray = ReadLine()!.Split(" ", StringSplitOptions.RemoveEmptyEntries);
 PrintArray(startArray);
